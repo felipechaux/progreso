@@ -1,0 +1,135 @@
+* {
+	margin: 0;
+	padding: 0;
+
+
+}
+
+body {
+
+	/*color:#fff;
+	background: #f2f2f2;
+	*/
+
+
+	
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0; padding: 10px;
+}
+
+.container{
+
+	width: 100%;
+
+}
+
+.principal {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	justify-content: center;
+}
+
+.aux {
+	text-align: center;
+	background: #00796B;
+}
+
+/*.header { background: #303F9F; }
+.sidebar1 { background: #1976D2; }
+.contenido {background: #000;}
+.sidebar2 { background: #E64A19; }
+.footer { background: #388E3C; }
+*/
+
+.sidebar {/* background: #1976D2; */}
+
+
+.contenido{
+
+   /*  background-image: url(../images/Background_modulo1_contenedor_LCCS.png);*/
+    /* background-repeat: no-repeat;
+     background-size: cover;*/
+
+    padding-bottom: 20%;
+    /*
+    background-size:100%;*/
+    
+    /*  max-width: 1108px;*/
+}
+
+.medios1{
+	 background: #E0E0E0;
+}
+
+
+/****estilos para titulos informaticos **/
+
+ .title,.title2 { position: relative;
+    z-index: 0;
+}
+
+.title,.title2:hover { background-color: transparent;
+	z-index: 1;
+}
+
+
+.title span { 
+	padding: 5px;
+	position: absolute;
+	text-decoration: none;
+	background-color: yellow;
+	color: black;
+	width: 6em;
+	text-align: center;
+	visibility: hidden;
+	font-size: 0.7em;
+	/*line-height: 10px;*/
+	}
+
+
+.title2 span { 
+	padding: 5px;
+	position: absolute;
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	width: 6em;
+	text-align: center;
+	visibility: hidden;
+	font-size: 0.7em;
+	/*line-height: 10px;*/
+	}
+	
+.title,.title2:hover span {
+	visibility: visible;
+	top: 24px;
+	left: 25px;
+	}
+/**** **/
+
+span{
+    
+  font-family: Open Sans;   
+    
+}
+.slideIframe{
+
+position: relative;
+padding-bottom: 4%;
+overflow: hidden;
+
+}
+
+.slideIframe iframe{
+
+position: absolute;
+display: block;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+
+}
+
